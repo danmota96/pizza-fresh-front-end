@@ -31,7 +31,9 @@ const Menu = ({ active, navItems }: MenuProps) => {
 
 		))}
 	</nav>
-	<S.MenuItemLogout>...</S.MenuItemLogout>
+	<S.MenuItemLogout>
+		<Logout />
+	</S.MenuItemLogout>
 </S.Menu>
   );
 };
