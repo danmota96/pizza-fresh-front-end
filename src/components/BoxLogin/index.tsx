@@ -15,6 +15,7 @@ const BoxLogin = () => {
       <S.BoxLoginForm>
         <input type="text" placeholder="E-mail" />
         <input type="password" placeholder="Senha" />
+        
         <ButtonLarge value="Entrar" type="button" />
       </S.BoxLoginForm>
     </S.BoxLogin>

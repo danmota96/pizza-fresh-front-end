@@ -6,3 +6,6 @@ export enum RoutePath {
     SETTINGS_TABLES = 'tables',
     SETTINGS_USERS = 'users',
   }
+
+
+{}

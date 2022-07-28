@@ -95,4 +95,3 @@ export const HomeProductListGap = styled.div`
 		width: 200px;
 	`}
 `;
-

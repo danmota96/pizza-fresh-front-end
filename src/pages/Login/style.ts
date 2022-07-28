@@ -22,3 +22,4 @@ export const LoginContent = styled.main`
 		align-items: center; ;
 	`}
 `;
+
