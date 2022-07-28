@@ -6,6 +6,9 @@ import { navigationItems } from "data/navigation";
 import { DateTime } from "luxon";
 import ProductItemList from "components/ProductItemList";
 import ProductItem from "components/ProductItem";
+import OrderDetails from "components/OrderDetails";
+import Overlay from "components/Overlay";
+import CheckoutSection from "components/CheckoutSection";
 
 
 
@@ -47,8 +50,11 @@ const Home = () => {
         </div>
       </S.HomeContent>
       <aside>
-        <p>Detalhes dos pedidos aqui</p>
+        <OrderDetails/>
       </aside>
+      <Overlay>
+        <CheckoutSection />
+      </Overlay>
     </S.Home>
   );
 };
