@@ -5,7 +5,4 @@ export enum RoutePath {
     SETTINGS_PRODUCTS = 'products',
     SETTINGS_TABLES = 'tables',
     SETTINGS_USERS = 'users',
-  }
-
-
-{}
+}

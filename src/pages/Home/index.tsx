@@ -52,9 +52,10 @@ const Home = () => {
       <aside>
         <OrderDetails/>
       </aside>
-      <Overlay>
+      
+    {/*  <Overlay>
         <CheckoutSection />
-      </Overlay>
+      </Overlay>  */}
     </S.Home>
   );
 };
