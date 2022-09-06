@@ -14,8 +14,6 @@ export type ButtonToggleProps = {
     return (
         <S.ButtonToggle {...props} active={active}>
             {value}
-
-        
         </S.ButtonToggle>
     );
   };
